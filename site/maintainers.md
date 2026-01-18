@@ -2,7 +2,13 @@
 
 ## About
 
-HCEP Falicitators are the people who maintain the HCEP repo and manage [the `#hcep` Slack channel](https://hackclub.enterprise.slack.com/archives/C09ULRQ02KT)). All of the HCEP Falicitators are Hack Clubbers, either current or alumni (this include staff in the list).
+HCEP Falicitators are the people who maintain the HCEP repo and manage [the `#hceps` Slack channel](https://hackclub.enterprise.slack.com/archives/C09ULRQ02KT)). All of the HCEP Falicitators are Hack Clubbers, either current or alumni (this include staff in the list).
+
+## Responsibilities
+
+* Create and manage tracking issues (and possibly their coressponding Slack thread in either `#meta`/`#hceps` channel) for each HCEP submitted.
+* Review HCEP submissions and merge them into the main branch for archival and tracking proposes.
+* Manage the `#hceps` Slack channel, including welcoming new members, answering questions, and enforcing the Hack Club Code of Conduct outside the Slack.
 
 ## How to add yourself here
 
