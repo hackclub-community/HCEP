@@ -47,8 +47,11 @@ docs_dir = "src"
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  { "Home" = "index.md" },
-  { "Maintainers" = "markdown.md" },
+  { "Meta" = [
+    "index.md",
+    "maintainers.md",
+    "submission.md"
+  ]}
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -69,7 +72,10 @@ nav = [
 # Read more: https://zensical.org/docs/customization/#additional-javascript
 #extra_javascript = ["javascripts/extra.js"]
 
+# Link to source repository
 repo_url = "https://github.com/hackclub-community/HCEP"
+# Edit URI template
+edit_uri = "edit/main/src/"
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -126,13 +132,13 @@ features = [
     # will generate an edit button for the page. This works for common
     # repository hosting services.
     # https://zensical.org/docs/setup/repository/#content-actions
-    #"content.action.edit",
+    "content.action.edit",
 
     # If you have a repository configured and turn on this feature, Zensical
     # will generate a button that allows the user to view the Markdown
     # code for the current page.
     # https://zensical.org/docs/setup/repository/#content-actions
-    #"content.action.view",
+    "content.action.view",
 
     # Code annotations allow you to add an icon with a tooltip to your
     # code blocks to provide explanations at crucial points.
@@ -219,7 +225,7 @@ features = [
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-tabs
-    #"navigation.tabs",
+    "navigation.tabs",
 
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
