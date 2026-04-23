@@ -19,7 +19,7 @@
 		},
 		"ghcr.io/devcontainers/features/python:1": {
 			"installTools": true,
-			"version": "latest"
+			"version": "3.14"
 		},
 		"ghcr.io/devcontainer-community/devcontainer-features/astral.sh-uv:1": {
 			"shellautocompletion": true,
