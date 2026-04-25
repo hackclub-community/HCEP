@@ -1,3 +1,11 @@
+---
+status: draft
+type: informational
+dateReceived: 1970-01-01
+trackingIssue: https://github.com/hackclub-community/HCEP/issues/TBD
+discussionsTo: https://github.com/hackclub-community/meta/discussions/TBD
+---
+
 # HCEP-xxxx: Title of your HCEP
 
 ## Summary
