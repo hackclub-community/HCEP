@@ -1,0 +1,27 @@
+{% include "partials/actions.html" %}
+{% if page.meta.status %}
+  {% if page.meta.status == "draft" %}
+  <span class="md-tag md-tag-draft">
+    <a href="/hcep/draft">Working draft</a>
+  </span>
+  {% elif page.meta.status == "final" %}
+  <span class="md-tag md-tag-draft">
+    <a href="/hcep/final">Finalized proposal</a>
+  </span>
+  {% elif page.meta.status == "withdrawn" %}
+  <span class="md-tag md-tag-draft">
+    <a href="/hcep/withdrawn">Withdrawn proposal</a>
+  </span>
+  {% endif %}
+{% endif %}
+{% if page.meta.type == "informational" %}
+  <span class="md-tag">Informational</span>
+{% endif %}
+{% if "\u003ch1" not in page.content %}
+  <h1 id="__skip">{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{{ page.content }}
+{% include "partials/tags.html" %}
+{% include "partials/source-file.html" %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}

@@ -50,7 +50,9 @@ nav = [
   { "Meta" = [
     "index.md",
     "maintainers.md",
-    "submission.md"
+    { "Submission methods" = "submission.md" },
+    { "Sample HCEP template" = "hcep/tbd0.md" },
+    { "CC0 1.0 Universal Legal Code" = "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en" }
   ]}
 ]
 
@@ -62,7 +64,7 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-#extra_css = ["stylesheets/extra.css"]
+extra_css = ["assets/stylesheets/extra_status.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -93,7 +95,7 @@ edit_uri = "edit/main/src/"
 # Read more:
 # - https://zensical.org/docs/customization/#extending-the-theme
 #
-#custom_dir = "overrides"
+custom_dir = "overrides"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
@@ -126,7 +128,7 @@ features = [
     # Zensical includes an announcement bar. This feature allows users to
     # dismiss it when they have read the announcement.
     # https://zensical.org/docs/setup/header/#announcement-bar
-    "announce.dismiss",
+    #"announce.dismiss",
 
     # If you have a repository configured and turn on this feature, Zensical
     # will generate an edit button for the page. This works for common
@@ -276,7 +278,7 @@ features = [
 # - https://github.com/zensical/ui/tree/master/dist/.icons
 # ----------------------------------------------------------------------------
 [project.theme.icon]
-#logo = "lucide/smile"
+logo = "lucide/scroll-text"
 repo = "fontawesome/brands/github"
 
 # ----------------------------------------------------------------------------
@@ -311,9 +313,14 @@ toggle.name = "Switch to light mode"
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
-#[[project.extra.social]]
-#icon = "fontawesome/brands/github"
-#link = "https://github.com/user/repo"
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/hackclub-community"
+
+[project.extra.status]
+draft = "Working draft"
+final = "Final"
+withdrawn = "Withdrawn proposal"
 
 # ----------------------------------------------------------------------------
 # In this section you can configure the Markdown extensions that are used when
