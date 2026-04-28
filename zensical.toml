@@ -53,7 +53,10 @@ nav = [
     { "Submission methods" = "submission.md" },
     { "Sample HCEP template" = "hcep/tbd0.md" },
     { "CC0 1.0 Universal Legal Code" = "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en" }
-  ]}
+  ]},
+  { "Draft" = "hcep/draft.md" },
+  { "Final" = "hcep/final.md" },
+  { "Withdrawn" = "hcep/withdrawn.md" }
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
