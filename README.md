@@ -1,6 +1,6 @@
 ---
 
-## :warning: This project is no longer maintained and now in archived state
+## :warning: This project is no longer maintained and now in archived state as of 2026-05-08
 
 For more information, visit <https://gitlab.com/andreijiroh-dev/hackclub-final-signoff>
 (details why this is archived will be posted there).
