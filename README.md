@@ -1,3 +1,15 @@
+---
+
+## :warning: This project is no longer maintained and now in archived state
+
+For more information, visit <https://gitlab.com/andreijiroh-dev/hackclub-final-signoff>
+(details why this is archived will be posted there).
+
+Alternatively, please contact an org admin at @hackclub-community if you want to take over
+project maintenance and the `hceps.hackclub.community` subdomain management.
+
+---
+
 # HCEP - Hack Club Enhancement Proposals
 
 [![Static Badge](https://img.shields.io/badge/Hack_Club_slack-%23hceps-blue?style=flat-square&logo=hackclub)](https://hackclub.enterprise.slack.com/archives/C09ULRQ02KT)
